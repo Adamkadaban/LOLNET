@@ -36,6 +36,7 @@ Attributes:
 - Parent
 - PdcRoleOwner
 - RidRoleOwner
+- InfrastructureRoleOwner
 
 **Get information about domain trusts (`Get-ADTrust`)**
 ```pwsh
