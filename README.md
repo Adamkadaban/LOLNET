@@ -24,11 +24,16 @@ Attributes:
 
 ## Domain
 
-* Get information about the current domain (`Get-ADDomain`)
+**Get information about the current domain (`Get-ADDomain`)**
 ```pwsh
 [System.DirectoryServices.ActiveDirectory.Domain]::GetCurrentDomain().DomainControllers
 ```
 
+
+**Get information about domain trusts (`Get-ADTrust`)**
+```pwsh
+([System.DirectoryServices.ActiveDirectory.Domain]::GetCurrentDomain()).GetAllTrustRelationships()
+```
 
 ## Files
 
