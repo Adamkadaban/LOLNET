@@ -1,6 +1,7 @@
 # LOLNET
 Living off the Land .Net payloads for when powershell modules aren't available
 
+The goal of this repo is to eventually aggregate all of this information into a queryable site like that of [LOLBAS](https://lolbas-project.github.io/). For now, I'm placing everything in this readme.
 
 ## Forest
 
