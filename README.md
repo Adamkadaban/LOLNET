@@ -43,6 +43,11 @@ Attributes:
 ([System.DirectoryServices.ActiveDirectory.Domain]::GetCurrentDomain()).GetAllTrustRelationships()
 ```
 
+**Find all discoverable domain controllers**
+```pwsh
+([System.DirectoryServices.ActiveDirectory.Domain]::GetCurrentDomain()).FindAllDiscoverableDomainControllers()
+```
+
 ## Site 
 
 **Get information about the current site**
