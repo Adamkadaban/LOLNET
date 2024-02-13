@@ -29,11 +29,32 @@ Attributes:
 [System.DirectoryServices.ActiveDirectory.Domain]::GetCurrentDomain().DomainControllers
 ```
 
-
 **Get information about domain trusts (`Get-ADTrust`)**
 ```pwsh
 ([System.DirectoryServices.ActiveDirectory.Domain]::GetCurrentDomain()).GetAllTrustRelationships()
 ```
+
+## Site 
+
+**Get information about the current site**
+```pwsh
+ [System.DirectoryServices.ActiveDirectory.ActiveDirectorySite]::GetComputerSite()
+```
+Attributes:
+- Name
+- Domains
+- Subnets
+- Servers
+- AdjacentSites
+- SiteLinks
+- InterSiteTopologyGenerator
+- Options
+- Location
+- BridgeheadServers
+- PreferredSmtpBridgeheadServers
+- PreferredRpcBridgeheadServers
+- IntraSiteReplicationSchedule
+
 
 ## Files
 
