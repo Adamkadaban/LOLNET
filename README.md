@@ -28,6 +28,14 @@ Attributes:
 ```pwsh
 [System.DirectoryServices.ActiveDirectory.Domain]::GetCurrentDomain().DomainControllers
 ```
+Attributes:
+- Forest
+- DomainControllers
+- Children
+- DomainModer
+- Parent
+- PdcRoleOwner
+- RidRoleOwner
 
 **Get information about domain trusts (`Get-ADTrust`)**
 ```pwsh
