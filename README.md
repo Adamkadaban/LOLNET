@@ -32,7 +32,7 @@ Attributes:
 - Forest
 - DomainControllers
 - Children
-- DomainModer
+- DomainMode
 - Parent
 - PdcRoleOwner
 - RidRoleOwner
