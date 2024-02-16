@@ -77,6 +77,12 @@ Attributes:
 [System.IO.File]::GetAttributes("C:\Users\Administrator\Desktop\root.txt")
 ```
 
+## Environment
+
+* Check if currently in a 64-bit process
+```pwsh
+[System.Environment]::Is64BitProcess
+```
 
 # Sources
 
