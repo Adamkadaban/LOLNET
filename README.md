@@ -83,6 +83,27 @@ Attributes:
 ```pwsh
 [System.Environment]::Is64BitProcess
 ```
+## Identity
+
+* Get the current identity of the user
+```pwsh
+[System.Security.Principal.WindowsIdentity]::GetCurrent()
+```
+- Name
+- AuthenticationType
+- Groups
+- User
+- Token
+- ImpersonationLevel
+- Owner
+- IsSystem
+- IsGuest
+- IsAnonymous
+- IsAuthenticated
+- AccessToken
+- UserClaims
+- DeviceClaims
+- Claims
 
 # Sources
 
